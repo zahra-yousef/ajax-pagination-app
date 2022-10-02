@@ -64,9 +64,7 @@
                     window.history.pushState({}, null, finalURL);
 
                     $.get(finalURL, function(data) {
-
-                    $("#pagination_data").html(data);
-
+                        $("#pagination_data").html(data);
                     });
 
                     return false;
